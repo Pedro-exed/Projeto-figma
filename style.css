@@ -1,0 +1,132 @@
+body {
+  font-family: Arial, Helvetica, sans-serif;
+  background-color: #000;
+  color: #fff;
+  overflow-x: hidden;
+}
+
+header {
+  position: absolute;
+  top: 0;
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  padding: 20px 50px;
+  background: linear-gradient(to bottom, rgba(0,0,0,0.7), transparent);
+  z-index: 10;
+}
+
+header h1 {
+  color: #e50914;
+  font-size: 30px;
+  font-weight: 900;
+}
+.Mulan {
+ 
+    height: 20%;
+    font-size: 100px;
+   padding: 4%;
+    text-align: right;
+    letter-spacing: 75px;
+
+}
+
+header nav a {
+  color: #fff;
+  margin-left: 25px;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+.hero {
+  position: relative;
+  height: 100vh;
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+.overlay {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: linear-gradient(to top, rgba(0,0,0,0.7), rgba(0,0,0,0));
+}
+
+.content {
+  position: absolute;
+  right: 0; 
+  top: 50%; 
+  transform: translateY(-50%);
+  width: 30%; 
+  padding: 30px;
+  box-sizing: border-box;
+}
+
+
+.assistir {
+
+  display: flex;
+  align-items: center;
+  gap: 12px;
+  cursor: pointer; 
+}
+
+.triangulo {
+  width: 0;
+  height: 0;
+  border-left: 18px solid white;
+  border-top: 10px solid transparent;
+  border-bottom: 10px solid transparent;
+  margin-left: 4px;
+}
+
+.play {
+  width: 60px;
+  height: 60px;
+  background-color: #e50914;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  box-shadow: 0 0 10px rgba(0,0,0,0.3);
+}
+
+.filme{
+  font-size: 30px;
+ padding-right: 15%;
+  align-self: flex-end;
+  display: flex;
+  flex-direction: column;
+  line-height: 1.4em;
+}
+
+
+.trailers {
+  top: 70%;  
+  display: flex;
+  gap: 20px;
+  position: absolute;
+  bottom: 40px;
+  left: 60px;
+}
+
+.trailers img {
+  
+  width: 160px;
+  height: 90px;
+  object-fit: cover;
+  border-radius: 5px;
+  transition: transform 0.3s;
+}
+
+.trai{
+    
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: var(--secundary-color);
+    font-size: 20px;
+}
